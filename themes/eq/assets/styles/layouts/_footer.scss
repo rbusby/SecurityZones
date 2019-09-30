@@ -1,0 +1,31 @@
+.content-info {
+	padding: 2.9em 0;
+	background: #04153a;
+	color: #fff;
+
+	h1, h2, h3, h4, h5,h6, p, a {
+		color: #fff;
+		margin: 0;
+	}
+
+	h2 {
+		margin-bottom: 21px;
+		text-transform: uppercase;
+	}
+
+	ul {
+		margin-bottom: 2.9em;
+	}
+
+	a {
+		text-decoration: underline;
+	}
+
+	.tar {
+		text-align: right;
+	}
+
+	form {
+		margin-top: 2.9em;
+	}
+}

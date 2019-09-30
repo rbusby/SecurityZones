@@ -1,0 +1,13 @@
+.widget {
+
+	h3 {
+		margin: 0 0 1.45em;
+	}
+
+	ul {
+		@extend .list-unstyled;
+
+		margin: 0;
+		padding: 0;
+	}
+}

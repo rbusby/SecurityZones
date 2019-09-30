@@ -1,0 +1,79 @@
+// WordPress Generated Classes
+// http://codex.wordpress.org/CSS#WordPress_Generated_Classes
+
+// Media alignment
+.alignnone {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 100%;
+  height: auto;
+}
+.aligncenter {
+  display: block;
+  margin: ($line-height-computed / 2) auto;
+  height: auto;
+}
+.alignleft,
+.alignright {
+  margin-bottom: ($line-height-computed / 2);
+  height: auto;
+}
+@media (min-width: $screen-sm-min) {
+  // Only float if not on an extra small device
+  .alignleft {
+    float: left;
+    margin-right: ($line-height-computed / 2);
+  }
+  .alignright {
+    float: right;
+    margin-left: ($line-height-computed / 2);
+  }
+}
+
+// Captions
+.wp-caption {
+  @extend .thumbnail;
+}
+.wp-caption-text {
+  padding: $thumbnail-caption-padding;
+}
+
+// Text meant only for screen readers
+.screen-reader-text {
+  @extend .sr-only;
+  @extend .sr-only-focusable;
+}
+
+@font-face {
+    font-family: 'Breuer Bold';
+    src: url('../../assets/fonts/BreuerText-Bold.woff2') format('woff2'),
+        url('../../assets/fonts/BreuerText-Bold.woff') format('woff'),
+        url('../../assets/fonts/BreuerText-Bold.ttf') format('truetype'),
+        url('../../assets/fonts/BreuerText-Bold.svg#BreuerText-Bold') format('svg');
+}
+
+@font-face {
+    font-family: 'Breuer Bold Italic';
+    src: url('../../assets/fonts/BreuerText-BoldItalic.woff2') format('woff2'),
+        url('../../assets/fonts/BreuerText-BoldItalic.woff') format('woff'),
+        url('../../assets/fonts/BreuerText-BoldItalic.ttf') format('truetype'),
+        url('../../assets/fonts/BreuerText-BoldItalic.svg#BreuerText-BoldItalic') format('svg');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Breuer Regular';
+    src: url('../../assets/fonts/BreuerText-Regular.woff2') format('woff2'),
+        url('../../assets/fonts/BreuerText-Regular.woff') format('woff'),
+        url('../../assets/fonts/BreuerText-Regular.ttf') format('truetype'),
+        url('../../assets/fonts/BreuerText-Regular.svg#BreuerText-Regular') format('svg');
+}
+
+@font-face {
+    font-family: 'Breuer Regular Italic';
+    src: url('../../assets/fonts/BreuerText-RegularItalic.woff2') format('woff2'),
+        url('../../assets/fonts/BreuerText-RegularItalic.woff') format('woff'),
+        url('../../assets/fonts/BreuerText-RegularItalic.ttf') format('truetype'),
+        url('../../assets/fonts/BreuerText-RegularItalic.svg#BreuerText-RegularItalic') format('svg');
+    font-style: italic;
+}

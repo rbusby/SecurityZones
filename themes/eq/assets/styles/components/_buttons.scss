@@ -1,0 +1,45 @@
+.btn {
+	padding-left: 20px;
+	padding-right: 20px;
+	opacity: 0;
+
+	&:after {
+		content: ' \f054';
+		@extend .fas;
+		font-size: 14px;
+		margin-left: 5px;
+	}
+
+	&-primary {
+		background: darken($green, 5%);
+		border: 1px solid darken($green, 15%);
+		font-size: 16px;
+		padding-top: 8px;
+		border-radius: 100px;
+		text-transform: uppercase;
+
+		&:hover {
+			background: darken($green, 15%);
+			border: 1px solid darken($green, 25%);
+		}
+	}
+
+	&-white {
+		background: #fff;
+		border: 1px solid #fff;
+		color: $green;
+		font-size: 16px;
+		padding-top: 8px;
+		border-radius: 100px;
+		text-transform: uppercase;
+
+		&:hover {
+			background: #fff;
+			border: 1px solid #fff;
+		}
+	}
+}
+
+.animated {
+	opacity: 1;
+}
