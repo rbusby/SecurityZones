@@ -2,13 +2,13 @@
   <div class="email-capture">
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
-          <h2 class="header">Free 30 day free trial offer</h2>
-          <h3>Now is the Time for Real-Time Cyber Threat Intelligence</h3>
-          <p>Ready to experience improved cybersecurity and stop phishing emails, ransomware, malware, and other cyber threats before they infect your business or your customers?</p>
+        <div class="col-sm-7">
+          <h3>Our free trial that'll make your life easier and spam free!</h3>
+          <p>Ready to experience improved cybersecurity and stop phishing emails, ransomware, malware, and other cyber threats before they infect your business or your customers? Sign up today for your 30 day free trial offer.</p>
         </div>
-        <div class="col-md-4">
-          <a href="<?php echo site_url(); ?>/free-trial/" class="btn btn-white">Sign up today!</a>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4">
+          <a href="<?php echo site_url(); ?>/free-trial/" class="btn btn-white">I want a free trial</a>
         </div>
       </div>
     </div>
